@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.text.Editable;
 import android.text.TextWatcher;
+import android.view.View;
 import android.widget.Toast;
 
 import com.example.ejercicio7mvp.databinding.ActivityMainBinding;
@@ -18,8 +19,18 @@ import com.example.ejercicio7mvp.databinding.ActivityMainBinding;
         binding= ActivityMainBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
 
+      binding.btnComprobar.setOnClickListener(v -> {
+        
+
+              });
+
        presentando= new Presentador (this);
+
       binding.editTextPass.addTextChangedListener(new TextWatcher() {
+
+
+
+
         @Override
         public void beforeTextChanged(CharSequence s, int start, int count, int after) {
 

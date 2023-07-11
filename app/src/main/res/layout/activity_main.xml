@@ -36,7 +36,7 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/btnComprobar"
         android:layout_width="163dp"
         android:layout_height="59dp"
         android:layout_marginTop="100dp"
