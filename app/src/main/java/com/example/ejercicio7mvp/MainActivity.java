@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.text.Editable;
 import android.text.TextWatcher;
+import android.widget.Toast;
 
 import com.example.ejercicio7mvp.databinding.ActivityMainBinding;
 
@@ -38,21 +39,25 @@ import com.example.ejercicio7mvp.databinding.ActivityMainBinding;
 
       @Override
       public void mostrarDebil() {
+        Toast.makeText( this, "Debil",Toast.LENGTH_SHORT).show();
+
+
 
       }
 
       @Override
       public void mostrarMedia() {
-
+        Toast.makeText( this, "Media",Toast.LENGTH_SHORT).show();
       }
 
       @Override
       public void mostrarFuerte() {
-
+        Toast.makeText( this, "Fuerte",Toast.LENGTH_SHORT).show();
       }
 
       @Override
       public void mostrarError() {
+        Toast.makeText( this, "Error",Toast.LENGTH_SHORT).show();
 
       }
   }
