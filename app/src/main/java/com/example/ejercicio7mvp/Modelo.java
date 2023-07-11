@@ -6,18 +6,17 @@ public class Modelo {
     public static final int Fuerte =2;
 
 
-    public int validarClave(String password){
-       if(password.length() <5){
+    public int validarClave(String  password){
+       if(password.length() <5) {
 
            return Debil;
-       }
-    }else if (password.equals(password.tolowerCase()))
 
-    {
-        return MEdia;
+    } else if (password.equals(password.toLowerCase())) {
+        return Fuerte;
 
 
     }else{
-     return Fuerte;
+
+     return Media;
     }
-}
+}}
